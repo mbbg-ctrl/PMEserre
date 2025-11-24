@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon premier site</title>
+  <style>
+    body {
+      background-image: url('photo4.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      color: white; /* pour mieux voir le texte si l’image est sombre */
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    p {
+      color: white;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    /* Style du bouton */
+    .bouton {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: rgba(76, 175, 80, 0.8);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-top: 30px;
+    }
+
+    .bouton:hover {
+      background-color: rgba(69, 160, 73, 0.9);
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue sur le site web de la serre!</h1>
+  <p>Ceci est mon premier site créé avec le Bloc-notes (*v*)</p>
+
+  <!-- Lien vers la page "À propos" -->
+  <a class="bouton" href="apropos.html">À propos de la serre</a>
+
+  <!-- Bouton vers la galerie -->
+  <a class="bouton" href="galerie.html">Voir la galerie 📷</a>
+
+  <!-- Bouton vers la page Jeux -->
+  <a class="bouton" href="jeux.html">Jouer 🎮</a>
+</body>
+</html>

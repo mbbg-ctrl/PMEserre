@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Galerie de la serre</title>
+  <style>
+    body {
+      background-color: #f0f8ff; /* fond bleu clair */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px 20px;
+    }
+
+    h1 {
+      color: green;
+    }
+
+    .galerie {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .photo {
+      width: 250px;
+      background-color: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .photo img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .texte {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    /* Bouton retour */
+    .bouton {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 25px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .bouton:hover {
+      background-color: #45a049;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Galerie de la serre 🌿</h1>
+
+  <div class="galerie">
+    <div class="photo">
+      <img src="photo.jpg" alt="Serre vue 1">
+      <p class="texte">Grâce à toutes cette espace la sert aura une fonction au sein de l'écologie du lycée.</p>
+    </div>
+
+    <div class="photo">
+      <img src="photo2.jpg" alt="Vue intérieure">
+      <p class="texte">2.81m de largeur 3.48m de hauteur.</p>
+    </div>
+
+    <div class="photo">
+      <img src="photo3.jpg" alt="Système d'arrosage">
+      <p class="texte">cette serre mesure 3.77m de longeur</p>
+    </div>
+  </div>
+
+  <!-- Bouton retour -->
+  <a class="bouton" href="index.html">⬅ Retour à l'accueil</a>
+
+</body>
+</html>
