@@ -1,0 +1,12 @@
+body {
+  background: #87ceeb; /* Bleu ciel */
+  margin: 0;
+  overflow: hidden;
+}
+
+#gameCanvas {
+  display: block;
+  margin: auto;
+  background: #55aa55; /* Sol vert */
+  border: 3px solid black;
+}
